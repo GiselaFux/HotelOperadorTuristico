@@ -1,0 +1,474 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: whitesmoke; 
+    height: 160px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    filter: drop-shadow(0 0 0.75rem #7f9e99);
+    z-index: 1000;
+}
+
+.icon- {
+    margin: 3px;
+    padding: 1px;
+    color:rgb(2, 2, 82);;
+}
+
+
+nav {
+    background-color: whitesmoke; 
+    padding-left: 0;
+}
+.logoNav{
+  width:4rem;
+  height: 4rem;
+  border: solid 2px rgb(2, 2, 82);
+}
+.botNav{
+  margin-right: 10vw;
+
+}
+a {
+    width: 15vw;
+    font-size: 1rem;
+    color: rgb(220, 220, 223);;
+}
+li:hover{
+    background-color:#ec8800;
+    padding: 2px;
+}
+
+/* cuerpo */
+.fondoNosotros{
+  width:100vw;
+  background-color: antiquewhite;
+}
+.fondoNosotros p{
+  color:#009688;
+}
+.fondoNosotros h4{
+  color:#ec8800;
+}
+.fondoNosotros h1{
+    color:#ec8800;
+}
+h1{
+  text-align:center;
+}
+h3{
+  text-align: center;
+}
+/* carrusel */
+#nosotros{
+  padding-top: 25vh; 
+  padding-right: .40vw;
+}
+#carouselExampleFade {
+  margin-top: 4vh;
+  width: 100%;
+  height: 70%;
+}
+
+.carousel-item {
+  object-fit: cover;
+}
+.carousel-item p{
+  color:white;
+  text-align: center;
+}
+.carousel-item p:hover{
+  color:antiquewhite;
+}
+.car{
+  height: 280px;
+}
+h3{
+  color:white;
+}
+/* destinos */
+#destinos{ 
+ 
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+.tituloDestino{
+  height: 10vh;
+}
+.divisionMapa{
+  margin-top:20vh;
+  width:100%;
+  height:250px ; 
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.sectorMapa{
+    width:100px;
+    height:100px;
+    margin-left:10px;
+    border:3px solid whitesmoke;
+}
+.divisionMapa a {
+  text-decoration: none;
+}
+/* cards */
+body{
+     width: 100%;
+    height: 100%;
+    /*background-image: url(../img/hojas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #ec8800; 
+  }
+  .linea{
+    color:#ec8800;
+  }
+  .carousel-fade .car{
+    border:solid 4px white;
+  }
+  .fa-arrow-up-from-bracket{
+    color:white;
+  }
+  .contenedorProyecto {
+    margin-top: 15vh;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+
+  .divisionCartas{
+    height: 8vh;
+    margin-top:15vh;
+    /* margin-bottom: 3vh; */
+    
+  }
+  .card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin:4%;
+    z-index: 1;
+  }
+  .tituloDestino{
+    margin-top:25vh;
+  }
+  .titulo{
+    width:100%;
+    padding:3vh 25vw;
+    margin-top: 1vh; 
+  }
+  .destino{
+    font-size: 1.5rem;
+    color: whitesmoke;
+  }
+  h1 { 
+   color: white;
+  }
+  h4{
+    color:white;
+    margin-left:2vw;
+  }
+  .slogan{
+    color:white;
+  }
+  .slogan:hover{
+    color:orangered;
+    font-size: larger;
+  }
+  p{
+     color:white; 
+   /* color:orangered;*/
+  }
+  
+  .tarjeta {
+    color: white;
+  }
+  
+  .card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 3s;
+  }
+  
+  .card .face-front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0px 5px 10px #d9d9d9;
+    background-color: orangered;
+    padding-top: 0px;
+  }
+  
+  .card .face-front img {
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card .face-back {
+    transform: perspective(600px) rotateY(180deg);
+    background-color:#009688;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0px 5px 10px #d9d9d9;
+  }
+  .card .face-back li{
+    color:white;
+  }
+  
+  .card .face-back .link {
+    border-top: solid 1px black;
+    height: 5vh;
+    line-height: 5vh;
+  }
+  
+  .card .face-back .link a {
+    color: whitesmoke;
+  }
+  
+  .card .face-back p {
+    letter-spacing: 1px;
+  }
+  
+  .card:hover .face-front {
+    transform: perspective(600px)rotateY(180deg)
+  }
+  
+  .card:hover .face-back {
+    transform: perspective(600px)rotateY(360deg)
+  }
+
+/* footer */
+ span {
+    color:black ;
+    margin-bottom: 1px;
+    font-size: .75rem;
+}
+
+.iconos {
+    margin-left: 15vw;
+    padding-left: 2vw;
+    color:white;
+}
+
+.continer {
+    height: 380px;
+    margin-top: 1vh;
+}
+
+h5 {
+    margin-left: 14.5vw;
+    padding-top: .5vh;
+    color:white;
+}
+
+.fin {
+    text-align: center;
+    background-color: rgb(122 106 83);
+    margin-top: -6vh; 
+    width: 100vw;
+     margin-left: -0.85vw; 
+}
+
+.logo {
+    margin-top: -7vh;
+    margin-left: 1.5vw;
+}
+
+p {
+    margin-left: 2vw;
+}
+
+.datos {
+    margin-left: -4vw;
+    padding-bottom: 1px;
+}
+
+.partesFooter {
+    height: 100px;
+    margin-top: 1px;
+    padding-bottom: 1px;
+}
+
+footer {
+    width: 100vw;
+    margin:0;  
+}
+.redes{
+  display:flex;
+}
+a .fa{
+  color:white;
+}
+
+/* goTop */
+
+ #button-up{
+  width:1.5rem;
+  height:1.5rem;
+  background-color: beige;
+  border-radius: 20%;
+  font-size:.75rem;
+  position:fixed;
+  bottom:50px;
+  right: 20px;
+  cursor:pointer;
+  border:4px solid transparent;
+  transition:all 300ms ease;
+}
+#button-up:hover{
+  transform:scale(1.1);
+  border:black;
+} 
+
+.fa-chevron-up{
+  font-weight: 800;
+  color:orangered;
+  margin: .25rem;
+}
+.fa-chevron-up:hover{
+  font-weight: 800;
+  color:darkblue;
+  margin: .25rem;
+}
+ @media(min-width:760px) {
+    header {
+        position: relative;
+    }
+
+    /* cuerpo */
+    #nosotros{
+      padding-top: 3vh;
+      padding-right: .5vw;
+ }
+ #carouselExampleFade {
+  margin: 4vh 10vw;
+  width: 80%;
+  height: 70%;
+}
+h1{
+  text-align:center;
+}
+h3{
+  text-align:center;
+}
+
+/* goTop */
+
+#button-up{
+  width:1.5rem;
+  height:1.5rem;
+  background-color: beige;
+  border-radius: 20%;
+  font-size:.75rem;
+  position:fixed;
+  bottom:50px;
+  right: 20px;
+  cursor:pointer;
+  border:4px solid transparent;
+  transition:all 300ms ease;
+}
+#button-up:hover{
+  transform:scale(1.1);
+  border:black;
+} 
+
+.fa-chevron-up{
+  font-weight: 800;
+  color:orangered;
+  margin: .25rem;
+}
+.fa-chevron-up:hover{
+  font-weight: 800;
+  color:darkblue;
+  margin: .25rem;
+}
+    /* footer */
+    .fin {
+        width: 100%;
+        margin-top: 8vh;
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: -6vw;
+        box-shadow: 0px 5px 10px #d9d9d9;
+    }
+
+    .redes {
+        padding-left: .75vw;
+        display:inline;
+    }
+
+    footer {
+        margin: 0; 
+       width: 100vw;  
+    }
+     a .fa{
+      width:42px;
+      color:aliceblue;
+    }
+    .telMail{
+      font-size: 1rem;
+      margin-top:3vh;
+    }
+}
+
+/*@media (min-width: 1500px) {
+    main {
+        margin: 280px auto 0px;
+    }
+
+    .logo {
+        width: 9rem;
+    }
+
+    footer{
+        width:82%;
+        margin-left:9vw;
+    }
+
+   
+    .navegadorHorizonal button {
+        padding: 10px;
+        width: 150px;
+        border: 1px solid #160812;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .links-footer {
+        margin: 0 80px;
+    }
+}
+/* cards */
+/*@media(min-width:760px){
+    .titulo{
+      width:100%;
+      padding:1vh 15vw;
+      margin-top: 1vh;
+      color:darkblue;
+    }}
+    @media(min-width:1050px){
+    .titulo{
+      width:100%;
+      padding:1vh 23vw;
+      margin-top: 3vh;
+      
+    }
+  } */

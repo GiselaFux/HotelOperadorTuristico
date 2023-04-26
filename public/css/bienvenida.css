@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header */
+#intro {
+    background-image: url("../img/imagenRuta3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; 
+    height: 120vh;
+    background-color: rgb(20, 56, 87);
+  }
+h1{
+  color:orangered;
+}
+h1:hover{
+  color:white;
+}
+a.btn:hover{
+color: orangered;
+}
+  /* Height for devices larger than 576px */
+  @media (min-width: 992px) {
+    #intro {
+      margin-top: -68.59px;
+    }
+  }
+
+  .navbar .nav-link {
+    color: #fff !important;
+  }
+/* header {
+    background-color: whitesmoke; 
+    height: 160px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    filter: drop-shadow(0 0 0.75rem #7f9e99);
+    z-index: 1000;
+}
+
+.icon- {
+    margin: 3px;
+    padding: 1px 6px 1px 1px;
+    color:rgb(2, 2, 82);
+}
+
+
+nav {
+    background-color: whitesmoke; 
+    padding-left: 0;
+
+}
+.logoNav{
+  width:4rem;
+  height: 4rem;
+  border: solid 2px rgb(2, 2, 82);
+}
+.botNav{
+  margin-right: 10vw;
+
+}
+a {
+    width: 15vw;
+    font-size: 1rem;
+     color: rgb(220, 220, 223); */
+/*
+li:hover{
+    background-color:rgb(119, 119, 181);
+    padding: 2px;
+}
+.cobertura{
+    margin-top: 25vh;
+    /* background-image: url(public/img/Undestino.png); 
+    
+} 
+
+ 
+.bot{
+    color:white;
+    background-color: blue;
+    border-radius: 25%;
+    border:solid 3px darkblue;
+    width:10vw;
+    z-index:100;
+    margin-top: -10vh;
+}
+.bot a{
+    color:bisque;
+    background-color: blue;
+    
+} */
