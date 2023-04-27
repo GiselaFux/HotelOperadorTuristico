@@ -267,21 +267,33 @@ body{
     padding-left: 2vw;
     color:white;
 }
+.iconos:hover{
+  color:#ec8800;
+}
 
 .continer {
-    height: 380px;
+    height: 850px;
     margin-top: 1vh;
 }
 
 h5 {
     margin-left: 14.5vw;
-    padding-top: .5vh;
-    color:white;
+    padding-top: 1vh;
+    color:#ec8800;
+    
 }
-
+h5 .contact{
+  margin-top:8.5vh;
+}
+footer h5:hover{
+  color:white;
+}
+footer p:hover{
+  color:#ec8800;
+}
 .fin {
     text-align: center;
-    background-color: rgb(122 106 83);
+    background-color: #212529; 
     margin-top: -6vh; 
     width: 100vw;
      margin-left: -0.85vw; 
@@ -302,11 +314,14 @@ p {
 }
 
 .partesFooter {
-    height: 100px;
+    height: 25vh;
     margin-top: 1px;
     padding-bottom: 1px;
 }
 
+.footer-link{
+  margin-top:8vh;
+}
 footer {
     width: 100vw;
     margin:0;  
@@ -317,6 +332,7 @@ footer {
 a .fa{
   color:white;
 }
+
 
 /* goTop */
 
@@ -414,7 +430,9 @@ h3{
         padding-left: .75vw;
         display:inline;
     }
-
+   .redes li{
+    margin-top:1.8rem;
+   }
     footer {
         margin: 0; 
        width: 100vw;  
@@ -428,47 +446,23 @@ h3{
       margin-top:3vh;
     }
 }
-
-/*@media (min-width: 1500px) {
-    main {
-        margin: 280px auto 0px;
-    }
-
-    .logo {
-        width: 9rem;
-    }
-
-    footer{
-        width:82%;
-        margin-left:9vw;
-    }
+@media(min-width:1000px) {
+  .redes li{
+    margin-top:1.2rem;
+   }
+   .fin {
+    width: 100%;
+    margin-top: 12vh;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: -6vw;
+    box-shadow: 0px 5px 10px #d9d9d9;
+}
+.denuncias{
+  height: 5vh;
+  margin-top: 4vh;
+}
+}
 
    
-    .navegadorHorizonal button {
-        padding: 10px;
-        width: 150px;
-        border: 1px solid #160812;
-        border-top: none;
-        border-bottom: none;
-    }
 
-    .links-footer {
-        margin: 0 80px;
-    }
-}
-/* cards */
-/*@media(min-width:760px){
-    .titulo{
-      width:100%;
-      padding:1vh 15vw;
-      margin-top: 1vh;
-      color:darkblue;
-    }}
-    @media(min-width:1050px){
-    .titulo{
-      width:100%;
-      padding:1vh 23vw;
-      margin-top: 3vh;
-      
-    }
-  } */
