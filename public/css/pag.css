@@ -291,11 +291,12 @@ footer h5:hover{
 footer p:hover{
   color:#ec8800;
 }
-.fin {
+a .fin {
     text-align: center;
     background-color: #212529; 
-    margin-top: -6vh; 
+    padding-top: .5vh; 
     width: 100vw;
+    margin-top:.1vh;
      margin-left: -0.85vw; 
 }
 
@@ -452,7 +453,7 @@ h3{
    }
    .fin {
     width: 100%;
-    margin-top: 12vh;
+    margin-top: 8vh;
     padding-left: 0;
     padding-right: 0;
     margin-right: -6vw;
